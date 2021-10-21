@@ -1,0 +1,27 @@
+.App {
+  margin: 5%;
+  border: 2px solid #2ca25f;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+.App-header {
+  margin: 5%;
+  border-bottom: 1px solid #2ca25f;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.data-container:nth-child(odd) .data-row {
+  background-color: #99d8c9;
+}
+
+.data-row {
+  padding: 2%;
+  margin: 0;
+  width: 100%;
+}
