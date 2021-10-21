@@ -44,9 +44,9 @@ class App extends React.Component {
           <h1>
             PFF Greenline
           </h1>
-          <h2>Too High or too Low?</h2>
+          <h2>Too High or too Low? Expected points minus actual points scored</h2>
         </header>
-        <div>
+        <div className="data-exterior">
           {this.lines.map((line: any) => {
               return (
                 <div className="data-container">
